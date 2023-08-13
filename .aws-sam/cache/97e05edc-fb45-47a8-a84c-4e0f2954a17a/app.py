@@ -1,7 +1,7 @@
 # app.py
 import json
 
-from routes import topic_routes, question_routes
+from routes import topic_routes, question_routes, chapter_routes
 
 def lambda_handler(event, context):
     print(json.dumps(event))
@@ -14,6 +14,8 @@ def route(event):
         return topic_routes.get(event)
     elif path == '/math/questions':
         return question_routes.get(event)
+    elif path == '/math/chapters':
+        return chapter_routes.get(event)
     else:
         return {
             'statusCode': 404,

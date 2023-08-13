@@ -5,8 +5,8 @@ codeuri = "/Users/meena/Documents/stemapp/mathapp-api/hello_world/src"
 runtime = "python3.9"
 architecture = "x86_64"
 handler = "app.lambda_handler"
-source_hash = "b308a427f8dd30ba291d80606e508c462ffd6c68e6c853c41b901c6f8ac4e764"
-manifest_hash = ""
+source_hash = "2f7bba024468a3d1c4c983c37f06b192582a097ecbba78a74503c0e1eed5f507"
+manifest_hash = "5ee1f2151ec5e3d76eda41ea1c6a784f"
 packagetype = "Zip"
 functions = ["HelloWorldFunction"]
 
